@@ -1,11 +1,12 @@
-# Die HsKA unterstützt die Bewerbung der Stadt Karlsruhe, um den Status als UNESCO City of Media Arts. Für diesen Anlass werden sogenannte “Swimming-Pixel” entwickelt. Diese sollen später auf dem Schlossteich schwimmen und je nach Position verschiedene Farbsequenzen abspielen. Dadurch soll es möglich sein, Bilder oder Farbspiele zu erzeugen.
+# Allgemeines
+Die HsKA unterstützt die Bewerbung der Stadt Karlsruhe, um den Status als UNESCO City of Media Arts. Für diesen Anlass werden sogenannte “Swimming-Pixel” entwickelt. Diese sollen später auf dem Schlossteich schwimmen und je nach Position verschiedene Farbsequenzen abspielen. Dadurch soll es möglich sein, Bilder oder Farbspiele zu erzeugen.
 
 Dokumentation: http://hit-karlsruhe.de/hit-info/info-ss20/PixelAnst/
 
 ## Getting Started
 Das Projekt ist in zwei Bereiche aufgeteilt:
 1. Schwimmende_Pixel_ESP 32 dazu gehört:
-Verbindung mit Wifi
+Verbindung mit Wifi;
 Verbindung mit Mosquitto (Broker)
 Erhalten der Farben mit Koordinaten vom Host
 Neue Farbe nach aktueller Position filtern
