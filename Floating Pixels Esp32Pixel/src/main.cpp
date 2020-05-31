@@ -27,8 +27,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 //------------------------Defines for Neo-Pixel ring ------------------------------
 #define LED_PIN   18  // Which pin on the Arduino is connected to the NeoPixels? // On a Trinket or Gemma we suggest changing this to 1:
-#define LED_COUNT 16 // How many NeoPixels are attached to the Arduino?
-Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRBW + NEO_KHZ800);
+#define LED_COUNT 15 // How many NeoPixels are attached to the Arduino?
+Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
 //---------------------------Defines Wifi Connection ------------------------------
 const char ssid[] = "ObiWlanKenobi";  // Enter hotspot name
